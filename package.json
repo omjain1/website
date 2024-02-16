@@ -1,12 +1,13 @@
 {
-  "homepage": "http://kapishjain.me/home",
+  "homepage": "http://omjain1.github.io/website",
   "name": "spaceportfolio",
   "version": "0.1.0",
   "private": true,
+  "export": "next export",
   "scripts": {
     "dev": "next dev",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d .build",
+    "deploy": "gh-pages -d .next",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
